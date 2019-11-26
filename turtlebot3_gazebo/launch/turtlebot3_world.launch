@@ -10,7 +10,7 @@
     <arg name="use_sim_time" value="true"/>
     <arg name="gui" value="true"/>
     <arg name="headless" value="false"/>
-    <arg name="debug" value="false"/>
+    <arg name="debug" value="true"/>
   </include>
 
   <param name="robot_description" command="$(find xacro)/xacro --inorder $(find turtlebot3_description)/urdf/turtlebot3_$(arg model).urdf.xacro" />
